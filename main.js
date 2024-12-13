@@ -1,12 +1,13 @@
  /* Toggle Icon NavBar */
 
 let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('navbar');
+let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('fa-xmark');
   navbar.classList.toggle('active');
-}
+};
+
 /* Scroll Section Active Link */
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -22,8 +23,8 @@ window.onscroll = () => {
       navLinks.forEach.apply(links => {
         links.classList.remove('active');
         document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-      })
-    }
+      });
+    };
   });
 
   /* Sticky NavBar */
@@ -47,10 +48,10 @@ ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right'});
 
 /* Typed JS */
-const typed = new Typed('multiple-text', {
+const typed = new Typed('#multiple-text', {
   strings: ['Computer Science Student', 'Aspiring Web Developer', 'Aspiring UX/UI Designer'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
   loop: true,
-})
+});
