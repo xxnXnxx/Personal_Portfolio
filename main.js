@@ -43,13 +43,13 @@ ScrollReveal( {
 });
 
 ScrollReveal().reveal('.home-content, heading',  { origin: 'top' });
-ScrollReveal().reveal('.home-img, .service-container, .portfolio-box, .contact form', { origin: 'bottom'});
+ScrollReveal().reveal('.home-img, .service-container, .portfolio-box, .contact form, .contact ',  { origin: 'bottom'});
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left'});
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right'});
 
 /* Typed JS */
 const typed = new Typed('#multiple-text', {
-  strings: ['Computer Science Student', 'Aspiring Web Developer', 'Aspiring UX/UI Designer'],
+  strings: ['Computer Science Student', 'Future Web Developer', 'Future UX/UI Designer'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 1000,
