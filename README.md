@@ -21,21 +21,8 @@ This is a personal portfolio website developed by Ian Gabriel Vista to showcase 
 - **Font Awesome**: Integrated for social media icons and other icons throughout the website.
 - **ScrollReveal.js**: Added animations to elements as the user scrolls through the page.
 
-## Installation
+## Testing
 
-To run the project locally, follow these steps:
-
-1. Clone the repository:
+   To run the portfolio, just open any web browser and search:
    ```bash
-   git clone https://github.com/xxnXnxx/IGV-Portfolio.git
-   ```
-
-2. Navigate into the project directory:
-   ```bash
-   cd IGV-Portfolio
-   ```
-
-3. Open the `index.html` file in a browser to view the website:
-   ```bash
-   open index.html
-   ```
+   https://xxnxnxx.github.io/Personal_Portfolio/
